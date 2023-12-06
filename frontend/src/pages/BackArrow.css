@@ -1,0 +1,16 @@
+.back-arrow {
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    left: 20px; /* Adjust the left position as needed */
+    font-size: 40px; /* Adjust the font size as needed */
+    cursor: pointer;
+    color: white; /* Arrow color */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .back-arrow span {
+    margin-right: 5px; /* Add spacing between the arrow and text if needed */
+  }
+  

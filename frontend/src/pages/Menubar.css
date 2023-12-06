@@ -1,0 +1,102 @@
+.menu-bar {
+
+    
+    position: fixed;
+    top:4%;
+left: 2%;
+
+
+  }
+  .menu-bar:hover{
+    background: none;
+    color: blanchedalmond;
+  }
+  .menu-bar.active{
+    position: fixed;
+    top: 0;
+bottom: 0;
+left: 0;
+    height:100%;
+background:url(nav.jpg);
+  }
+  
+  .menu-bar.active .menu-items {
+    padding: 10px 10px 10px 10px;
+    display: block;
+    text-align: center;
+  }
+  .menu-bar.active .menu-items button{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease, border 0.3s ease; 
+  }
+  .menu-bar.active .menu-items :hover{
+    background-color: burlywood;
+    border: 1px solid burlywood;
+    border-radius: 5px;
+  }
+  
+  button{
+    margin: 10px;
+    background: none;
+    border: none;
+    text-align: center;
+  }
+  .toggle-button {
+    
+    
+      width: 35px;
+      height: 5px;
+      background-color: white;
+      margin: 6px 0;
+    
+    
+  }
+  
+  h1:hover{
+    background:none;
+    
+  }
+  
+  .menu-items {
+    display: none;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    
+    
+    margin: 0;
+  }
+  
+  .menu-items li {
+    border-bottom: 2px solid  black;
+    padding: 10px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .toggle-button {
+    
+    
+      width: 20px;
+      height: 2px;
+      background-color: white;
+      margin: 6px 0;
+    
+    
+  }
+  }
+  @media (max-width: 768px){
+    .toggle-button {
+    
+    
+      width: 20px;
+      height: 2px;
+      background-color: white;
+      margin: 6px 0;
+    
+    
+  }
+  }
+  

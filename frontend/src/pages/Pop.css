@@ -1,0 +1,29 @@
+.container{
+    
+    height: 100%;
+    
+}
+.htwo{
+    color: white;
+    font-size: 12vh;
+}
+.hthree{
+    color: antiquewhite;
+    font-size: 5vh;
+}
+.button{
+    color: black;
+    background-color: white;
+    width: 150px;
+    font-size: large;
+    font-weight: bold;
+    height: 45px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.btss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,47 @@
+.forms{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,minmax(270px,1fr));
+    gap: 20px;
+    margin-top: -30px;
+}
+.forms.formgroup{
+    width: 150px;
+}
+
+.lab{
+  color: white;
+  text-align: center;
+}
+.goals{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,minmax(270px,1fr));
+    gap:15px;
+  
+    
+    
+}
+.onsale{
+  text-align: center;
+  color: aliceblue;
+  
+}
+@media (max-width: 768px) {
+    .goals {
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); /* Display one column on mobile */
+    }
+    .forms{
+        display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1,minmax(270px,1fr));
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .goals {
+      grid-template-columns: repeat(2, minmax(270px, 1fr)); /* Display two columns on tablets */
+    }
+  }
+  .hone{
+    color: white;
+  }

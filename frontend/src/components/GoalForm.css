@@ -1,0 +1,8 @@
+.form-group input{
+    background:none;
+    color: white;
+    border:2px solid white;
+}
+input::placeholder{
+    color: white;
+}

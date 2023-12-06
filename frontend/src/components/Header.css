@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Oswald:wght@500&display=swap');
+.logo h1 a{
+    font-family: 'Holtwood One SC', serif;
+    margin-top: 20px;
+    color: transparent;
+  -webkit-text-stroke: 2px white;
+    
+}
+ul li a{
+    color: white;
+}
+ul{
+    margin-top: -20px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (min-width:550px) and (max-width: 768px) {
+    .logo h1 a{
+        font-family: 'Holtwood One SC', serif;
+        font-size:smaller;
+        color: transparent;
+      -webkit-text-stroke: 2px white;
+      margin-left: 30px;
+    }
+  }
+  @media (max-width: 550px) {
+    .logo h1 a{
+        font-family: 'Holtwood One SC', serif;
+        font-size:smaller;
+        color: transparent;
+      -webkit-text-stroke: 2px white;
+      
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .logo h1 a{
+      font-family: 'Holtwood One SC', serif;
+    
+      color: transparent;
+    -webkit-text-stroke: 2px white;
+    margin-left: 30px;
+      
+  }
+  }

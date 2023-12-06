@@ -1,0 +1,43 @@
+.goal{
+    font-family: 'poppins',sans-serif;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background:white;
+    text-align: center;
+    padding: 30px 20px;
+    background: url(bgg2.jpg);
+    background-size: cover; /* Make the background image cover the entire content */
+  background-position: center;
+  transition: transform 0.3s ease;
+  
+}
+.goal:hover{
+    transform: scale(1.05); 
+}
+.hone h1{
+    color: white;
+}
+.datt{
+    position:absolute;
+    top: 10%;
+    left: 5%;
+}
+.datt h3{
+    color: black;
+}
+.pro{
+    color: yellow;
+}
+.wei{
+    position:absolute;
+    bottom: 7%;
+    left: 5%;
+    color: antiquewhite;
+}
+.rup{
+    
+        position:absolute;
+        bottom: 7%;
+        right: 5%;
+        color:brown;
+}

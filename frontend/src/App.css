@@ -1,0 +1,8 @@
+.container{
+    /* App.css */
+
+    display: flex;
+    flex-direction: column; /* Initially stack components vertically on small screens */
+
+  
+}

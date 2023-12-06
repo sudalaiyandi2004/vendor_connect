@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("D:\mern-tutorial-main\frontend\public\bg.png");
+    background-size: cover; /* Adjust this as needed */
+    background-repeat: no-repeat; /* Adjust this as needed */
+    background-attachment: fixed; /* Adjust this as needed */
+    padding: 20px;
+    /* Remove opacity: 2px; as it's not valid; use rgba for opacity instead */
+     /* Adjust the brightness as needed to darken the background */
+    background-blend-mode: darken;
+
+}
+
+    /* Modify the brightness of the content */
+
+/* Apply styles for your content */
+input.form-control{
+    background: none;
+    color: white;
+    
+    border: 2px solid white;/* This will make the input element unaffected by the background */
+}
+input.form-control::placeholder{
+    color:white;
+}
+
+.heading{
+    color:whitesmoke; /* Text color for h1 */
+}
+button.btn-block{
+    margin-top: 5px;
+    background-color:whitesmoke;
+    color:black;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: -1px;
+}
+button:hover{
+    
+    background-color:black;
+    color:white;
+}
+.head p {
+    color: #fffafa; /* Replace 'your-desired-color' with the color you want */
+}
+.custom-select {
+    background:none; /* Change this to your desired background color */
+    /* Add any other styling you want for the <select> element */
+  }
