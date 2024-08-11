@@ -143,7 +143,7 @@ function Dashboard() {
     formdata.append('file',file)
     console.log(file)
     console.log("f:",formdata)
-    axios.post('http://localhost:5000/api/users/upload',formdata)
+    axios.post('https://vendor-connect.onrender.com/api/users/upload',formdata)
     .then(res=>console.log(res))
     .catch(err=>console.log(err))
   }
