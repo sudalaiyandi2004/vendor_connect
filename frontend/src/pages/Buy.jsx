@@ -16,7 +16,7 @@ function Buy(props) {
   useEffect(() => {
     // Fetch user from backend using the provided userId
     axios
-      .get(`http://localhost:5000/api/users/${froms.user}`)
+      .get(`https://vendor-connect.onrender.com/api/users/${froms.user}`)
       .then((response) => {
         setVen(response.data);
       })
