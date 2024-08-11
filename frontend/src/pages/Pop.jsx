@@ -48,7 +48,7 @@ const Pop = () => {
         updatedData=Math.round((updatedData+ven.updatedData)/2)
         console.log(updatedData)
         try {
-          const response = await axios.put(`http://localhost:5000/api/users/update/${id}`, {updatedData:updatedData});
+          const response = await axios.put(`https://vendor-connect.onrender.com/api/users/update/${id}`, {updatedData:updatedData});
           // Handle the response, e.g., show a success message
           console.log(response.data.message);
         } catch (error) {
