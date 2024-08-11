@@ -81,7 +81,7 @@ const sub = (e) => {
     city:selectedCity,
     state:selectedState
   }
-  axios.put(`http://localhost:5000/api/users/update/${from._id}`, updatedData)
+  axios.put(`https://vendor-connect.onrender.com/api/users/update/${from._id}`, updatedData)
   .then(response => {
       console.log('User updated:', response.data);
       setShow(false)
