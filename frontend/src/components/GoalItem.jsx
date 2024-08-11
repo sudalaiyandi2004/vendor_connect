@@ -19,7 +19,7 @@ function GoalItem({ goal ,id,user,data,plac}) {
   const ids=goal.user
   const [showPopup, setShowPopup] = useState(false);
   const getRating=()=>{
-  axios.get(`http://localhost:5000/api/users/get/${ids}`)
+  axios.get(`https://vendor-connect.onrender.com/api/users/get/${ids}`)
       .then(response => {
         const data = response.data;
         console.log(data)
