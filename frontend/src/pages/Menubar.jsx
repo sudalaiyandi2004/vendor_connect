@@ -24,7 +24,7 @@ const Menubar = ({user,goals,sales,pur}) => {
   }
   useEffect(() => {
     // Make an API request to your backend to get the count
-    fetch(`http://localhost:5000/api/sales/purchase/count/${user._id}`)
+    fetch(`https://vendor-connect.onrender.com/api/sales/purchase/count/${user._id}`)
       .then((response) => response.json())
       .then((data) => setPurchaseCount(data.count))
       .catch((error) => console.error('Error:', error));
@@ -32,14 +32,14 @@ const Menubar = ({user,goals,sales,pur}) => {
   }, []);
   useEffect(() => {
     // Make an API request to your backend to get the count
-    fetch(`http://localhost:5000/api/sales/sold/count/${user._id}`)
+    fetch(`https://vendor-connect.onrender.com/api/sales/sold/count/${user._id}`)
       .then((response) => response.json())
       .then((data) => setSoldCount(data.count))
       .catch((error) => console.error('Error:', error));
   }, []);
   useEffect(() => {
     // Make an API request to your backend to get the count
-    fetch(`http://localhost:5000/api/goals/stock/count/${user._id}`)
+    fetch(`https://vendor-connect.onrender.com/api/goals/stock/count/${user._id}`)
       .then((response) => response.json())
       .then((data) => setStockCount(data.count))
       .catch((error) => console.error('Error:', error));
