@@ -47,7 +47,7 @@ const closePopup = () => {
   const update = async (newWeight) => {
     try {
       // Send PUT request to update the goal weight
-      await axios.put(`http://localhost:5000/api/goals/${froms._id}`, {
+      await axios.put(`https://vendor-connect.onrender.com/api/goals/${froms._id}`, {
         weight: froms.weight - newWeight,
       });
 
@@ -63,7 +63,7 @@ const closePopup = () => {
   const deletes = () => {
     // Send DELETE request to delete the user
     axios
-      .delete(`http://localhost:5000/api/goals/delete/${froms._id}`)
+      .delete(`https://vendor-connect.onrender.com/api/goals/delete/${froms._id}`)
       .then((response) => {
         console.log(response.data.message); // User deleted successfully
         // Perform any additional actions after deletion if needed
@@ -81,7 +81,7 @@ const closePopup = () => {
       toast('It takes a few minutes!', { autoClose: 1500 });
       changes(); // Update the states
       // Trigger the API call after the state is updated
-      await fetch('http://localhost:5000/api/users/send', {
+      await fetch('https://vendor-connect.onrender.com/api/users/send', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -105,7 +105,7 @@ const closePopup = () => {
         recipientEmail=ven.email
       subject='Sold'
       message='You sold your product'
-      await fetch('http://localhost:5000/api/users/send', {
+      await fetch('https://vendor-connect.onrender.com/api/users/send', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
