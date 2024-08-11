@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/vendor_connect/static/css/main.b8d903f5.css",
+    "main.js": "/vendor_connect/static/js/main.5cddace4.js",
+    "static/media/bg.png": "/vendor_connect/static/media/bg.c35e5b3d0f424e209c47.png",
+    "static/media/nav.jpg": "/vendor_connect/static/media/nav.d5f214f212a7a44ce457.jpg",
+    "static/media/user.jpg": "/vendor_connect/static/media/user.230efd175cc30e94ae49.jpg",
+    "static/media/bt2.jpg": "/vendor_connect/static/media/bt2.b45d0df4913dac1c83ca.jpg",
+    "static/media/bgg2.jpg": "/vendor_connect/static/media/bgg2.29cebb7144453f46dfff.jpg",
+    "index.html": "/vendor_connect/index.html",
+    "main.b8d903f5.css.map": "/vendor_connect/static/css/main.b8d903f5.css.map",
+    "main.5cddace4.js.map": "/vendor_connect/static/js/main.5cddace4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8d903f5.css",
+    "static/js/main.5cddace4.js"
+  ]
+}
